@@ -10,7 +10,7 @@ services:
     volumes:
       - influxdata:/var/lib/influxdb
   api:
-    image: lucj/iot-api:v3
+    image: jsolderitsch/iot-api
     command: npm start
     ports:
       - 1337:1337
