@@ -8,7 +8,7 @@ db:
   restart: on-failure
 api:
   autoredeploy: true
-  image: lucj/iot-api:latest
+  image: jsolderitsch/iot-api:latest
   command: npm start
   ports:
     - 1337:1337
