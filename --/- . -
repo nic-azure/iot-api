@@ -1,0 +1,2 @@
+zip -q -d
+log4j-core-*.jarorg/apache/logging/log4j/core/lookup/JndiLookup.class
